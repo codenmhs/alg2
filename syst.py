@@ -23,13 +23,27 @@ class Syst:
         
     def visualize(self): 
         if self.dimension == 2: 
+            upper = 10
+            lower = -10
+            count = int(upper - lower)
+            x = np.arange(lower, upper)
+            # Since each equation is given implicitly by the row as ax + by = c, the explicit equatiln is y = c/b - ax/b
+            y1 = (-1 * self.comat[0][0] / self.comat[0][1]) * x + np.full(shape=(count,), fill_value=self.ov[0]/self.comat[0][1])
+            y2 = (-1 * self.comat[1][0] / self.comat[1][1]) * x + np.full(shape=(count,), fill_value=self.ov[1]/self.comat[1][1])
+            plt.plot(x, y1)
+            plt.plot(x, y2, 'k-')
+            plt.grid()
+            plt.show()
+            
+        if self.dimension == 3: 
             pass
         
     
 if __name__ == '__main__': 
-    test_size = 3
+    test_size = 2
     test_coefs = np.random.randint(low=-10, high=10, size=(test_size, test_size))
     test_out = np.random.randint(low=-10, high=10, size=(test_size, 1))
     
     test_syst = Syst(test_coefs, test_out)
     print(test_syst.solve())
+    test_syst.visualize()

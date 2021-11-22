@@ -1,0 +1,39 @@
+This project addresses the question "why is function composition useful" asked (less politely) by students in Alg. II 9-28-21
+
+---
+
+I am going to start by being real with you.  I think part of the reason you resist these classes so much is because you sense that we are making everything soft and artificial for you and putting foam on all of the corners.  But this is not really practice, it is real life, and you are correct to point out the incongruity.  So, I'm going to take off the kid gloves for a minute or two.
+
+--
+
+I am going to address the question "why does this class matter."
+
+My first answer is that you probably already intuitively know why this class matters.  You know that society is testing you to see how big of a role in it you will play.  You know that we are desperately trying to help you on a path toward curiosity, fulfillment, and opportunity,  because children are the sole members of society that any other part of society ever tries to help, and the best way we can help you is to steer you toward the things we know to be good, and away from the suffering we have encountered in our own lives.  Ironically, now, when you most despise our assistance, is the only time when all the adults around you have pure intentions.  This will never be the case again.  All of the adults in this building are extraordinary people.  They've chosen to dedicate their lives to helping others.  To helping you.  If you knew what we've been through to get here, what we go through every day, you would understand the rage we feel when you interrupt and insult and derail our efforts - when, out of selfishness and angst, you take the opportunity to learn and to grow away from your peers so you can receive attention, and so you can deflect from the fact that you feel inadequate, because you have been given a challenge, and are choosing to shy away from it, and this makes you feel small.  You do not hate math.  You do not think learning is dumb.  You think you're dumb, and you're not mature enough to admit it.  So you say math is dumb.  And you say we're dumb.  And you dally and put off the day when you're going to have to face where you are, and learn that the only way to where you want to be is to try.  Without excuses.  Without arrogance and without insecurity.  With resolve.  It does not matter where you are.  It only matters that you try.  And the sooner you learn this, the more life will be, for you. 
+
+I don't ever want to have to tell another one of you to stop talking.  Sit up straight, put your masks on, pay attention, and shut the hell up.  This is the bare minimum of being a person in a society.  Then and only then can we begin to do something interesting.
+
+---
+
+Nicer version:
+ I think you don't really think math is dumb.  I think you think you're dumb because math feels hard.  But math is hard for everyone, and you can do anything, because you are humans.  So, stop worrying about that.  Give yourself permission to try.
+
+---
+
+Now.  Let us assume that you do understand what I have just said, and you still genuinely do not understand why math is important.  
+
+Math is not about memorizing formulas.  It is about creating formulas.  It is about discovering the patterns and relationships that underlay all things.  It is unwise to try to summarize something which is so vast, so instead, I will focus on the single topic which you have learned most recently, function composition. 
+
+There are two reasons function composition is important.  First, because it is useful.  Second, because it is interesting. 
+
+First: here is a simulation of the movement of bodies under gravitation that I made two weekends ago.  I made it because I wanted to know what would happen to the orbit of a satellite when I fire its thrusters.  It works by putting the output of a function back into itself, over and over.  With the power of computers, we can do this at a resolution that allows us to predict the behavior of the universe.  This predictive capability gives us all of engineering: rockets and satellites, semiconductor electronics - computers, LED's, solar panels, communications -  cancer treatments, and vaccines.  It allows us to send the entire informational traffic of the internet with pulses of light through hair thin glass wires that cross the ocean floor, and it allows us to design the machines that make those wires, and ships that lay them, and the economies that make the engineers that make those wires and ships and signals.  This is all done with simulation, which means expressing the world in terms of functions. 
+
+For thousands of years, people wondered how the stars move.  Some of the greatest philosophers of 400 years ago spent their lives recording this movement.  But the people who figured out how to describe this movement were mathematicians.  Today, a child, you, can describe the motion of the stars - this is how.  This little formula right here.  This is nothing short of a miracle.
+
+The second reason function composition is important: because it is interesting.  People explore in math just like they explore anything else.  Here are two fascinating things discovered while playing with function composition.
+
+First, I will show you a little more explicitely what I mean by 
+
+First, here is a fern.  It is generated by applying a rule - a function - over and over to coordinates.  This rule is spelled out with boring old functions - no one set out to make it look like a fern - but nevertheless, one has to admit that it looks uncannily like a fern.  Why are nature and recursive functions creating the same unusual pattern?  I don't know.  This is the kind of question a mathematician might set out to answer.
+
+  
+
